@@ -9,7 +9,7 @@ const fruits = [
 ];
 
 fruits.forEach(fruit => {
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 2; i++) {
         grid.innerHTML += `
         <div class="card" data-attr="${fruit}">
             <div class="double-face">
